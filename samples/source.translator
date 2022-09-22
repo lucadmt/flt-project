@@ -1,0 +1,14 @@
+begin
+	x = 2;
+	y = 5;
+
+	if x > y then
+		print(x);
+		print(y);
+	else
+		print(y);
+		print(x);
+
+	read(i);
+	print(i*x+y);
+end

@@ -1,0 +1,11 @@
+begin       // Where we begin
+lol = 3;    /* Where we block */
+lal = 4;
+read(lal /* Ok, that's gross. */ );
+if lal > lol then
+    print(lol);
+else
+    for (lal = 2; lal >= lol)
+    do
+        lal = lal + 1;
+end
